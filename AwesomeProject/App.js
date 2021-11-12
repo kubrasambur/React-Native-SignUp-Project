@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  SafeAreaView
+  View
 } from 'react-native';
-import FlatListEx from './src/components/flatListExample';
+import Login from './src/pages/Login';
 
-class App extends Component {
+export default class App extends Component {
   
   render(){
     return (
-        <SafeAreaView style={styles.container}>
-          <FlatListEx/>
-        </SafeAreaView>        
+          <Login></Login>        
 );
   }
   
@@ -19,12 +17,7 @@ class App extends Component {
 
 const styles = StyleSheet.create({
   container:{
-    backgroundColor:"#3498DB",
-    flex:1,
-    flexDirection:"row",
-    alignItems:'center',
-    justifyContent:"center"
+    backgroundColor:"#F5FCFF",
+    flex:1
 }
 });
-
-export default App;
