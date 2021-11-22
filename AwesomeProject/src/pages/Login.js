@@ -80,10 +80,10 @@ const styles = StyleSheet.create({
       alignItems:'center'
   },
   signUpDescription:{
-      color:'red'
+      color:'#1C2833'
   },
   signUpText:{
-      color:'#666'
+      color:'#1C2833'
   }
 });
 
